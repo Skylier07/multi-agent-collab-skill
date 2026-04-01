@@ -1,4 +1,4 @@
-# multi-agent-collab-skill
+# Multi-Agent Collaboration Skill
 
 A two-skill system for coordinating multiple AI coding agents (Claude Code, Gemini CLI, Cursor, Codex, etc.) on a shared codebase. Agents work in parallel without stepping on each other — scope is enforced at the git layer, communication happens through append-only files, and deadlocks are caught before they spiral.
 
