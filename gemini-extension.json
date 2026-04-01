@@ -1,0 +1,6 @@
+{
+  "name": "multi-agent-collab-skill",
+  "version": "1.0.0",
+  "description": "Two Gemini skills for multi-agent collaboration: collab-setup and collab-protocol",
+  "contextFileName": "README.md"
+}

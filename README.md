@@ -36,6 +36,8 @@ The day-to-day rules each agent follows on every task:
 
 ## Installation
 
+### Claude Code
+
 This marketplace is hosted on GitHub. Add it in Claude Code:
 
 ```
@@ -52,6 +54,27 @@ Then install the skills you need:
 **Who installs what:**
 - The agent running initial setup needs `collab-setup`
 - Every agent participating in the collaboration needs `collab-protocol`
+
+### Cursor Plugin (same repo)
+
+This repository now includes Cursor plugin manifests:
+
+- Repo marketplace: `.cursor-plugin/marketplace.json`
+- Plugin manifests:
+  - `plugins/collab-setup/.cursor-plugin/plugin.json`
+  - `plugins/collab-protocol/.cursor-plugin/plugin.json`
+
+Local test in Cursor:
+
+1. Symlink or copy one plugin into `~/.cursor/plugins/local/`:
+   - `~/.cursor/plugins/local/collab-setup` -> `plugins/collab-setup`
+   - `~/.cursor/plugins/local/collab-protocol` -> `plugins/collab-protocol`
+2. Reload Cursor (`Developer: Reload Window`)
+3. Verify the skills appear and can be invoked
+
+To publish on Cursor Marketplace, submit this GitHub repo at:
+
+- <https://cursor.com/marketplace/publish>
 
 ### Manual installation (other platforms)
 

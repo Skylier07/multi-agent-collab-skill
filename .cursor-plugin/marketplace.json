@@ -1,0 +1,16 @@
+{
+  "name": "collab-skills",
+  "description": "Multi-agent collaboration skills for Cursor and other AI coding agents",
+  "plugins": [
+    {
+      "name": "collab-setup",
+      "source": "./plugins/collab-setup",
+      "description": "One-time setup for multi-agent collaboration."
+    },
+    {
+      "name": "collab-protocol",
+      "source": "./plugins/collab-protocol",
+      "description": "Day-to-day rules for multi-agent collaboration."
+    }
+  ]
+}
