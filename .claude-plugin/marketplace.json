@@ -1,0 +1,34 @@
+{
+  "name": "collab-skills",
+  "owner": {
+    "name": "eason"
+  },
+  "metadata": {
+    "description": "Multi-agent collaboration skills for Claude Code and other AI coding agents",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "collab-setup",
+      "source": "./plugins/collab-setup",
+      "description": "One-time setup for multi-agent collaboration: interviews you, generates .collab/ protocol directory, installs git hooks, and produces onboarding prompts for each agent",
+      "version": "1.0.0",
+      "author": {
+        "name": "eason"
+      },
+      "category": "collaboration",
+      "tags": ["multi-agent", "collaboration", "setup", "git", "workflow"]
+    },
+    {
+      "name": "collab-protocol",
+      "source": "./plugins/collab-protocol",
+      "description": "Day-to-day rules for multi-agent collaboration: messages, contracts, scope enforcement, deadlock prevention, and task lifecycle",
+      "version": "1.0.0",
+      "author": {
+        "name": "eason"
+      },
+      "category": "collaboration",
+      "tags": ["multi-agent", "collaboration", "protocol", "git", "workflow"]
+    }
+  ]
+}

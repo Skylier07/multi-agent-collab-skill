@@ -1,0 +1,5 @@
+{
+  "name": "collab-setup",
+  "description": "One-time setup for multi-agent collaboration: interviews you, generates .collab/ protocol directory, installs git hooks, and produces onboarding prompts for each agent",
+  "version": "1.0.0"
+}
